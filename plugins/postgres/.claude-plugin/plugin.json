@@ -1,0 +1,12 @@
+{
+  "name": "postgres",
+  "description": "Execute read-only SQL queries against multiple PostgreSQL databases with intelligent database selection",
+  "version": "1.0.0",
+  "author": {
+    "name": "jonesvitolo",
+    "url": "https://github.com/jonesvitolo"
+  },
+  "repository": "https://github.com/jonesvitolo/claude-plugins-colletion",
+  "license": "MIT",
+  "keywords": ["claude-code", "plugin", "postgres", "postgresql", "database", "sql", "query"]
+}
