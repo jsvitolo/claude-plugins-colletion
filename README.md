@@ -1,16 +1,20 @@
 # Claude Plugins Marketplace
 
-A community-driven collection of plugins for [Claude Code](https://claude.com/claude-code).
+A community-driven collection of plugins for [Claude Code](https://claude.ai/code).
 
-## Quick Install
+## Installation
+
+The plugins are installed through Claude Code's marketplace system. First, add the marketplace collection:
 
 ```bash
-# Install a plugin from this marketplace
-claude /plugin install github:jonesvitolo/claude-plugins-colletion/plugins/<plugin-name>
+claude plugin marketplace add jsvitolo/claude-plugins-colletion
+```
 
-# Or clone and use locally
-git clone https://github.com/jonesvitolo/claude-plugins-colletion.git
-claude --plugin-dir ./claude-plugins-colletion/plugins/<plugin-name>
+Then install individual plugins:
+
+```bash
+claude plugin install postgres@claude-plugins-colletion
+claude plugin install commit-commands@claude-plugins-colletion
 ```
 
 ## Available Plugins
@@ -18,14 +22,15 @@ claude --plugin-dir ./claude-plugins-colletion/plugins/<plugin-name>
 | Plugin | Description | Version |
 |--------|-------------|---------|
 | [postgres](plugins/postgres) | Read-only PostgreSQL queries with multi-database support | 1.0.0 |
+| [commit-commands](plugins/commit-commands) | Streamlined git workflow with /commit, /commit-push-pr, /clean_gone | 1.0.0 |
 
 ## Plugin Categories
 
-- **Developer Tools** - Code generation, testing, debugging
-- **Productivity** - Task management, automation, workflows
-- **Integrations** - External services, APIs, databases
-- **AI/ML** - Model training, data processing, analysis
-- **Documentation** - Doc generation, API docs, changelogs
+### Developer Tools
+- **commit-commands** - Git workflow automation with Conventional Commits
+
+### Integrations
+- **postgres** - Execute read-only SQL queries against PostgreSQL databases
 
 ## Creating a Plugin
 

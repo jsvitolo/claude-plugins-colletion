@@ -1,0 +1,12 @@
+{
+  "name": "commit-commands",
+  "description": "Streamline your git workflow with simple commands for committing, pushing, and creating pull requests",
+  "version": "1.0.0",
+  "author": {
+    "name": "Anthropic",
+    "url": "https://anthropic.com"
+  },
+  "repository": "https://github.com/anthropics/claude-code",
+  "license": "MIT",
+  "keywords": ["claude-code", "plugin", "git", "commit", "pull-request", "workflow"]
+}
