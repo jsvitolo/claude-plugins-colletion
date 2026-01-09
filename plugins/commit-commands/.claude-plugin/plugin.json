@@ -3,10 +3,10 @@
   "description": "Streamline your git workflow with simple commands for committing, pushing, and creating pull requests",
   "version": "1.0.0",
   "author": {
-    "name": "Anthropic",
-    "url": "https://anthropic.com"
+    "name": "jsvitolo",
+    "url": "https://github.com/jsvitolo"
   },
-  "repository": "https://github.com/anthropics/claude-code",
+  "repository": "https://github.com/jsvitolo/claude-plugins-colletion",
   "license": "MIT",
   "keywords": ["claude-code", "plugin", "git", "commit", "pull-request", "workflow"]
 }
