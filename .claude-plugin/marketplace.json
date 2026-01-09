@@ -1,12 +1,13 @@
 {
-  "name": "claude-plugins-colletion",
+  "name": "my-claude-code-plugins",
   "owner": {
     "name": "Jones Vitolo"
   },
   "metadata": {
-    "description": "A community-driven collection of plugins for Claude Code",
+    "description": "Personal collection of development plugins",
     "homepage": "https://github.com/jsvitolo/claude-plugins-colletion",
-    "pluginRoot": "./plugins"
+    "pluginRoot": "./plugins",
+    "version": "1.0.0"
   },
   "plugins": [
     {

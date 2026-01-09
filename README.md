@@ -7,14 +7,14 @@ A community-driven collection of plugins for [Claude Code](https://claude.ai/cod
 The plugins are installed through Claude Code's marketplace system. First, add the marketplace collection:
 
 ```bash
-claude plugin marketplace add jsvitolo/claude-plugins-colletion
+claude plugin marketplace add jsvitolo/claude-plugins-colletion my-claude-code-plugins
 ```
 
 Then install individual plugins:
 
 ```bash
-claude plugin install postgres@claude-plugins-colletion
-claude plugin install commit-commands@claude-plugins-colletion
+claude plugin install postgres@my-claude-code-plugins
+claude plugin install commit-commands@my-claude-code-plugins
 ```
 
 ## Available Plugins
