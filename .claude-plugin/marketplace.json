@@ -13,6 +13,11 @@
       "name": "postgres",
       "source": "./plugins/postgres",
       "description": "Execute read-only SQL queries against multiple PostgreSQL databases"
+    },
+    {
+      "name": "commit-commands",
+      "source": "./plugins/commit-commands",
+      "description": "Streamline your git workflow with simple commands for committing, pushing, and creating pull requests"
     }
   ]
 }
