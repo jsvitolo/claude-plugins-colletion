@@ -7,7 +7,7 @@
     "description": "Personal collection of development plugins",
     "homepage": "https://github.com/jsvitolo/claude-plugins-colletion",
     "pluginRoot": "./plugins",
-    "version": "1.0.0"
+    "version": "1.1.0"
   },
   "plugins": [
     {
@@ -19,6 +19,11 @@
       "name": "commit-commands",
       "source": "./plugins/commit-commands",
       "description": "Streamline your git workflow with simple commands for committing, pushing, and creating pull requests"
+    },
+    {
+      "name": "code-simplifier",
+      "source": "./plugins/code-simplifier",
+      "description": "Automatically simplifies and refines code for clarity, consistency, and maintainability while preserving functionality"
     }
   ]
 }
