@@ -7,7 +7,7 @@
     "description": "Personal collection of development plugins",
     "homepage": "https://github.com/jsvitolo/claude-plugins-colletion",
     "pluginRoot": "./plugins",
-    "version": "1.1.0"
+    "version": "1.2.0"
   },
   "plugins": [
     {
@@ -24,6 +24,11 @@
       "name": "code-simplifier",
       "source": "./plugins/code-simplifier",
       "description": "Automatically simplifies and refines code for clarity, consistency, and maintainability while preserving functionality"
+    },
+    {
+      "name": "mentor",
+      "source": "./plugins/mentor",
+      "description": "Educational mode that explains concepts, teaches patterns, and guides learning through Socratic questioning"
     }
   ]
 }
