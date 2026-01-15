@@ -7,7 +7,7 @@
     "description": "Personal collection of development plugins",
     "homepage": "https://github.com/jsvitolo/claude-plugins-colletion",
     "pluginRoot": "./plugins",
-    "version": "1.3.0"
+    "version": "1.4.0"
   },
   "plugins": [
     {
@@ -29,6 +29,11 @@
       "name": "mentor",
       "source": "./plugins/mentor",
       "description": "Educational mode that explains concepts, teaches patterns, and guides learning through Socratic questioning"
+    },
+    {
+      "name": "rust-dev",
+      "source": "./plugins/rust-dev",
+      "description": "Professional Rust development toolkit with expert agent, project scaffolding, and async patterns"
     }
   ]
 }

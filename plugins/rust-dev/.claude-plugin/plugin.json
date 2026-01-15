@@ -1,0 +1,12 @@
+{
+  "name": "rust-dev",
+  "description": "Professional Rust development toolkit with expert agent, project scaffolding, and async patterns",
+  "version": "1.0.0",
+  "author": {
+    "name": "jsvitolo",
+    "url": "https://github.com/jsvitolo"
+  },
+  "repository": "https://github.com/jsvitolo/claude-plugins-colletion",
+  "license": "MIT",
+  "keywords": ["claude-code", "plugin", "rust", "async", "tokio", "systems-programming"]
+}
