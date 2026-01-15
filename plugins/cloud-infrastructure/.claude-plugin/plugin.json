@@ -1,0 +1,12 @@
+{
+  "name": "cloud-infrastructure",
+  "description": "Complete cloud infrastructure toolkit with experts for Terraform, Kubernetes, service mesh, multi-cloud, and DevOps",
+  "version": "1.0.0",
+  "author": {
+    "name": "jsvitolo",
+    "url": "https://github.com/jsvitolo"
+  },
+  "repository": "https://github.com/jsvitolo/claude-plugins-colletion",
+  "license": "MIT",
+  "keywords": ["claude-code", "plugin", "cloud", "infrastructure", "terraform", "kubernetes", "aws", "devops", "service-mesh"]
+}

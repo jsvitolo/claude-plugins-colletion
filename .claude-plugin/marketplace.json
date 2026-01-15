@@ -7,7 +7,7 @@
     "description": "Personal collection of development plugins",
     "homepage": "https://github.com/jsvitolo/claude-plugins-colletion",
     "pluginRoot": "./plugins",
-    "version": "1.4.0"
+    "version": "1.5.0"
   },
   "plugins": [
     {
@@ -34,6 +34,11 @@
       "name": "rust-dev",
       "source": "./plugins/rust-dev",
       "description": "Professional Rust development toolkit with expert agent, project scaffolding, and async patterns"
+    },
+    {
+      "name": "cloud-infrastructure",
+      "source": "./plugins/cloud-infrastructure",
+      "description": "Complete cloud infrastructure toolkit with experts for Terraform, Kubernetes, service mesh, multi-cloud, and DevOps"
     }
   ]
 }
