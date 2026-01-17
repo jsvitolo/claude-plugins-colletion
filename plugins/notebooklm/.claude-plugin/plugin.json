@@ -1,0 +1,12 @@
+{
+  "name": "notebooklm",
+  "description": "Query Google NotebookLM directly from Claude Code for source-grounded, citation-backed answers with drastically reduced hallucinations",
+  "version": "1.0.0",
+  "author": {
+    "name": "PleasePrompto",
+    "url": "https://github.com/PleasePrompto/notebooklm-skill"
+  },
+  "repository": "https://github.com/PleasePrompto/notebooklm-skill",
+  "license": "MIT",
+  "keywords": ["claude-code", "plugin", "notebooklm", "google", "gemini", "research", "documentation", "rag"]
+}
