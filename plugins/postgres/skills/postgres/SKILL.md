@@ -10,7 +10,8 @@ Execute safe, read-only queries against configured PostgreSQL databases.
 ## Requirements
 
 - Python 3.8+
-- psycopg2-binary: `pip install -r requirements.txt`
+- uv (recommended): `uv run --with psycopg2-binary` auto-manages dependencies
+- Or install manually: `uv pip install -r requirements.txt`
 
 ## Setup
 
@@ -55,27 +56,27 @@ chmod 600 connections.json
 
 ### List configured databases
 ```bash
-python3 scripts/query.py --list
+uv run --with psycopg2-binary scripts/query.py --list
 ```
 
 ### Query a database
 ```bash
-python3 scripts/query.py --db production --query "SELECT * FROM users LIMIT 10"
+uv run --with psycopg2-binary scripts/query.py --db production --query "SELECT * FROM users LIMIT 10"
 ```
 
 ### List tables
 ```bash
-python3 scripts/query.py --db production --tables
+uv run --with psycopg2-binary scripts/query.py --db production --tables
 ```
 
 ### Show schema
 ```bash
-python3 scripts/query.py --db production --schema
+uv run --with psycopg2-binary scripts/query.py --db production --schema
 ```
 
 ### Limit results
 ```bash
-python3 scripts/query.py --db production --query "SELECT * FROM orders" --limit 100
+uv run --with psycopg2-binary scripts/query.py --db production --query "SELECT * FROM orders" --limit 100
 ```
 
 ## Database Selection

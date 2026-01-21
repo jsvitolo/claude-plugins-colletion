@@ -16,7 +16,8 @@ from typing import Optional
 try:
     import psycopg2
 except ImportError:
-    print("Error: psycopg2 not installed. Run: pip install psycopg2-binary")
+    print("Error: psycopg2 not installed. Run: uv pip install psycopg2-binary")
+    print("Or use: uv run --with psycopg2-binary scripts/query.py")
     sys.exit(1)
 
 # Constants

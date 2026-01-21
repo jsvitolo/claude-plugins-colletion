@@ -7,7 +7,7 @@
     "description": "Personal collection of development plugins",
     "homepage": "https://github.com/jsvitolo/claude-plugins-colletion",
     "pluginRoot": "./plugins",
-    "version": "1.6.0"
+    "version": "1.7.0"
   },
   "plugins": [
     {

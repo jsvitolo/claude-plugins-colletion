@@ -18,8 +18,10 @@ claude --plugin-dir ./claude-plugins-colletion/plugins/postgres
 ## Requirements
 
 ```bash
-pip install psycopg2-binary
+uv pip install psycopg2-binary
 ```
+
+Or use `uv run` which automatically manages dependencies (recommended).
 
 ## Setup
 
@@ -59,16 +61,16 @@ The skill is automatically invoked when Claude detects you're working with Postg
 
 ```bash
 # List configured databases
-python3 scripts/query.py --list
+uv run --with psycopg2-binary scripts/query.py --list
 
 # List tables
-python3 scripts/query.py --db prod --tables
+uv run --with psycopg2-binary scripts/query.py --db prod --tables
 
 # Show schema
-python3 scripts/query.py --db prod --schema
+uv run --with psycopg2-binary scripts/query.py --db prod --schema
 
 # Run query
-python3 scripts/query.py --db prod --query "SELECT * FROM users" --limit 100
+uv run --with psycopg2-binary scripts/query.py --db prod --query "SELECT * FROM users" --limit 100
 ```
 
 ## Config Fields
